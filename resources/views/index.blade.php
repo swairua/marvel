@@ -1,7 +1,7 @@
 @include('layouts.header')
 
     <div class="show">
-        <h1> Oya!!! Marvel characters are here below </h1>
+        <h1>Oya!!! Marvel characters are here below</h1>
     </div>
 
     <form style="border: 4px solid #a1a1a1;margin-top: 15px;padding: 10px;" action="{{ route('importExcel') }}" class="form-horizontal" method="post" enctype="multipart/form-data">
